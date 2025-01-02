@@ -5,7 +5,7 @@
 
 using namespace std;
 
-Image::Image(void) :
+Image::Image(void):
     texture(make_shared<sf::Texture>())
 {
 }
